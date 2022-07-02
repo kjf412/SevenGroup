@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_learn_dart/page/manage.dart';
 import 'package:my_learn_dart/game/game.dart';
+import 'package:my_learn_dart/dinosaur_run.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({
