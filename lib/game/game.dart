@@ -203,10 +203,10 @@ class _MyHomePageState extends State<MyHomePage> {
         Container(
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
-                border: Border.all(color: Colors.blue, width: 3)),
+                border: Border.all(color: Colors.purpleAccent, width: 5)),
             child: IconButton(
                 padding: EdgeInsets.all(0),
-                iconSize: 50,
+                iconSize: 70,
                 icon: Icon(Icons.keyboard_arrow_up),
                 onPressed: () {
                   _doPlayerMove("上");
@@ -218,7 +218,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      border: Border.all(color: Colors.blue, width: 3)),
+                      border: Border.all(color: Colors.purpleAccent, width: 5)),
                   margin: EdgeInsets.fromLTRB(25, 0, 25, 0),
                   child: IconButton(
                       padding: EdgeInsets.all(0),
@@ -230,7 +230,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      border: Border.all(color: Colors.blue, width: 3)),
+                      border: Border.all(color: Colors.purpleAccent, width: 5)),
                   margin: EdgeInsets.fromLTRB(25, 0, 25, 0),
                   child: IconButton(
                       padding: EdgeInsets.all(0),
@@ -245,7 +245,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Container(
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
-                border: Border.all(color: Colors.blue, width: 3)),
+                border: Border.all(color: Colors.purpleAccent, width: 5)),
             child: IconButton(
                 padding: EdgeInsets.all(0),
                 iconSize: 70,
@@ -367,7 +367,7 @@ class _MyHomePageState extends State<MyHomePage> {
             context: context,
             builder: (BuildContext context) {
               return AlertDialog(
-                content: Text("骚年,你已成功挑战10关，我看你骨骼惊奇，适合玩迷宫（狗头"),
+                content: Text("你已成功挑战10关，我看你骨骼惊奇，适合玩迷宫，不妨试一试小恐龙跑酷"),
                 actions: <Widget>[
                   new FlatButton(
                     child: new Text('继续挑战第10关(新地图)',
