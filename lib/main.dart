@@ -61,7 +61,7 @@ class login extends State<MyHomePage> {
   TextEditingController mimaController = TextEditingController();
   FocusNode focusNode1 = FocusNode();
   FocusNode focusNode2 = FocusNode();
-  FocusScopeNode? focusScopeNode;
+  FocusScopeNode focusScopeNode;
   GlobalKey _formKey = GlobalKey<FormState>();
   
   @override
