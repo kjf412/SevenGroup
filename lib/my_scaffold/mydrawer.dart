@@ -50,12 +50,22 @@ class MyDrawer extends StatelessWidget {
                     title: const Text('Manage accounts'),
                   ),
                   ElevatedButton.icon(
-                    icon: const Icon(Icons.back_hand_sharp),
-                    label: const Text("进入游戏"),
+                    icon: const Icon(Icons.games),
+                    label: const Text("进入游戏1"),
                     onPressed: () {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => Mygame()),
+                      ); //从第二个界面返回
+                    },
+                  ),
+                  ElevatedButton.icon(
+                    icon: const Icon(Icons.games),
+                    label: const Text("进入游戏2"),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => DinosaurRun()),
                       ); //从第二个界面返回
                     },
                   ),
